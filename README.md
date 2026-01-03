@@ -19,3 +19,15 @@ using tiered polling, deadbands, batching, and outbound-only TLS to the app inge
 - 100–300 points
 - Validate accuracy, traffic, and operator usefulness
 - Expand only after success
+
+## Requirements
+- Python 3.10+ (recommended)
+- pyyaml
+- jsonschema
+
+## Install
+```bash
+python -m venv .venv
+source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
+pip install -r requirements.txt
+ docs/metasys_connect_
